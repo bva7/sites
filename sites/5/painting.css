@@ -1,0 +1,43 @@
+body {
+    background: #ffc8c8;
+}
+
+#hh, caption{
+	font-weight: bold;
+}
+
+th {
+    border: outset 1px;
+    text-align: left;
+    padding-right: 5px;
+}
+
+.table__th {
+    background-color: #bd5151;
+    color: white;
+    text-align: center;
+    padding: 0 15px;
+}
+
+td {
+    border: outset 1px;
+}
+
+caption {
+	color: darkred;
+}
+
+img {
+	margin: 8px;
+}
+
+table {
+	width: max-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: outset;
+}

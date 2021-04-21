@@ -1,0 +1,29 @@
+body {
+  background: url(fon.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+.franch_castle_section {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.franch_castle_text, .name-castle {
+    color: rgb(214, 61, 0);
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.castle-text {
+    font-size: 16.5px;
+    text-align: justify;
+}

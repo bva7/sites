@@ -1,0 +1,17 @@
+table {
+    margin-bottom: 20px;
+}
+
+.colm {
+	color: white;
+	background-color: RosyBrown;
+}
+
+body {
+	background-color: MistyRose;
+}
+
+caption {
+	color: RosyBrown;
+	font-weight: bold;
+}

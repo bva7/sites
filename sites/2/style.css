@@ -1,0 +1,59 @@
+body {
+    color: #009933;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+p {
+    letter-spacing: 10px;
+}
+
+.kursiv {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.formatirovanie {
+    font-family: Comic Sans;
+    font-size: 25pt;
+    text-indent: 50px;
+}
+
+.rich {
+	font-family: Arial;
+	font-size: 15pt;
+	font-weight: bold;
+	font-style: italic;
+	color: orange;
+	line-height: 25pt;
+}
+
+.perenos {
+	white-space: none;
+}
+
+.red {
+	color: #FF0000;
+	text-transform: uppercase;
+}
+
+.style__text {
+	font-family: Courier;
+	font-size: 12pt;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 200%;
+	text-indent: 2cm;
+	line-height: 2;
+}
+
+.text1,
+.text2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+
+.text2 {
+	text-decoration: underline;
+}

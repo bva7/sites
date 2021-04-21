@@ -1,0 +1,31 @@
+body {
+    background-image: url(img/y.jpg);
+}
+
+table {
+    width: max-content;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 12px;
+    border: 3px solid grey;
+}
+
+th {
+    color: DarkRed;
+    border: 1px solid #d4d4d4;
+    background-color: #d4d4d4;
+}
+
+caption {
+    color: DarkRed;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid gray;
+    font-weight: bold;
+}
