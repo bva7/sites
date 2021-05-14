@@ -1,0 +1,42 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background: turquoise;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.round1, .round2, .square, .rectangle {
+    position: absolute;
+    background: white;
+}
+
+.round1, .round2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 30px;
+}
+
+.round1 {
+    left: 30px;
+}
+
+.round2 {
+    right: 30px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    top: 90px;
+    left: 85px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 10px;
+    top: 150px;
+    left: 50px;
+}

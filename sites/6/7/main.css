@@ -1,0 +1,25 @@
+#wrapper{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0px auto;
+	background: green;
+}
+
+#elem1{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	width: 100px;
+	height: 100px;
+    background: white;
+}
+
+#elem2{
+	position: absolute;
+	left: 370px;
+	top: 270px;
+	width: 100px;
+	height: 100px;
+    background: white;
+}

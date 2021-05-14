@@ -1,0 +1,260 @@
+/* 1 */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+	width: 200px;
+    margin-bottom: 20px;
+}
+
+.menu1 ul {
+	color: blue; 
+	list-style-position: inside;
+}
+
+.menu1 a:link, .menu1 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+}
+
+.menu1 a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+/* 2 */
+
+.menu2 li {
+    margin-bottom: 5px;
+}
+
+.menu2 a:link, .menu2 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid blue;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+
+.menu2 a:hover {
+    font-weight: bold;
+}
+
+/* 3 */
+
+.menu3 li {
+    margin-bottom: 5px;
+}
+
+.menu3 a:link, .menu3 a:visited {
+	text-decoration: none;
+	color: #fff;
+	font: 13px Arial;
+	border: 1px solid #000;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+    background-color: #333;
+    font-weight: bold;
+}
+
+.menu3 a:hover {
+    background-color: #fff;
+	color: #000;
+}
+
+/* 4 */
+
+.menu4 svg {
+	transform: rotate(90deg);
+	position: absolute;
+	top: 0;
+	right: 15px;
+	bottom: 0;
+	margin: auto;
+}
+
+.menu4 li {
+    margin-bottom: 5px;
+	position: relative;
+}
+
+.menu4 a:link, .menu4 a:visited {
+	text-decoration: none;
+	color: #fff;
+	font: 13px Arial;
+	border: 1px solid rgb(80, 112, 255);
+	display: block;
+	padding: 0px 10px;
+	line-height: 30px;
+    background-color: rgb(80, 112, 255);
+    font-weight: bold;
+	fill:rgb(80, 112, 255)
+}
+
+.menu4 a:hover {
+    background-color: #fff;
+	color: rgb(80, 112, 255);
+}
+
+.planes_svg {
+	width: 15px;
+	float: right;
+}
+
+/* 5 */
+
+.menu5 ul {
+	list-style-type: none;
+}
+
+.menu5 li {
+	margin-right: 4px;
+	float: left;
+}
+
+.menu5 a:link, .menu5 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 a:hover, .menu5 a.active {
+	color: red;
+}
+
+/* 6 */
+
+.menu5, .menu6 {
+	height: 40px;
+}
+
+.menu6 ul {
+	list-style-type: none;
+}
+
+.menu6 li {
+	margin-right: 4px;
+	float: left;
+}
+
+.menu6 a:link, .menu6 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu6 a:hover, .menu6 a.active {
+	color: white;
+	background:#555;
+}
+
+/* 7 */
+
+.menu7 {
+	height: 80px;
+}
+
+.menu7 svg {
+	width: 40px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.menu7 div {
+	fill: #ddd;
+}
+
+.menu7 ul {
+	list-style-type: none;
+}
+
+.menu7 li {
+	margin-right: 15px;
+	float: left;
+	position: relative;
+}
+
+.menu7 div {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Courier New', Courier, monospace;
+	letter-spacing: -0.5px;
+}
+
+.menu7 div:hover {
+	color: rgb(80, 112, 255);
+	fill: rgb(80, 112, 255);
+}
+
+.menu7 p {
+	margin-top: 40px;
+}
+
+/* 8 */
+
+.menu8 {
+	height: 50px;
+}
+
+.menu8 li {
+	padding: 10px 20px;
+	float: left;
+	background: orange;
+	text-transform: uppercase;
+}
+
+.menu8 li:hover {
+	background: red;
+	transition: 0.4s;
+}
+
+.menu8 a {
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+/* 9 */
+
+.calendar {
+	width: 150px;
+	height: 150px;
+}
+
+.gray {
+	color: gray;
+}
+
+.calendar div {
+	width: 15px;
+	height: 15px;
+	padding: 3px;
+	float: left;
+	font-size: 12.5px;
+	font-family: sans-serif;
+}
+
+span {
+	width: 98%;
+	height: 1px;
+	background: #222;
+	float: left;
+}

@@ -1,0 +1,55 @@
+.container {
+    background: #C4CD14;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.eye1, .eye2, .noise {
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 55px;
+}
+
+.eye1 {
+    left: 60px;
+}
+
+.eye2 {
+    right: 60px;
+}
+
+.noise {
+    width: 50px;
+    height: 50px;
+    top: 150px;
+    left: 125px;
+    z-index: 5;
+}
+
+.top {
+    background-color: #C4CD14;
+    position: absolute;
+    left: 75px;
+    top: 148px;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.bottom {
+    background: white;
+    position: absolute;
+    width: 130px;
+    height: 105px;
+    border-radius: 50%;
+    z-index: 2;
+    left: 85px;
+    top: 160px;
+}
