@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    height: max-content;
+    background: #94baff;
+    background: linear-gradient(to top, #6495ed, #94baff);
+    width: max-content;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px 40px 30px;
+    border-radius: 10px;
+}
+
+.main-param {
+    color: #333;
+    font-weight: 900;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.reg, .order {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    float: right;
+    outline: none;
+    resize: none;
+}
+
+.email input {
+    float: left;
+}
+
+.send-data {
+    width: max-content;
+    margin: auto;
+}
+
+.submit {
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 5px 15px;
+    background: rgba(216, 247, 255, 0.4);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.container {
+    width: 346px;
+    height: 77px;
+}

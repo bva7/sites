@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>10</title>
+</head>
+<body>
+    <form action="#" method="POST">
+
+        <div class="reg">
+            <p class="main-param">Форма регистрации</p>
+            <p>ФИО<input type="text"></p>
+            <p>Email<input type="text"></p>
+            <p>Номер телефона<input type="text"></p>
+            <p>Город<input type="text"></p>
+            <p>Дата рождения<input type="text"></p>
+        </div>
+
+        <div class="order">
+            <p class="main-param">Параметры доставки</p>
+            <div class="container">
+                <p class="address">Адрес<textarea name="" id="" cols="20" rows="5" ></textarea></p>
+            </div>
+            <p>Почтовый индекс<input type="text"></p>
+        </div>
+
+        <div class="email">
+            <p class="main-param">Предпочитаемый способ получения уведомлений</p>
+            <input type="radio" name="inp" id="email"><label for="email">По Email</label> <br><br>
+            <input type="radio" name="inp" id="tel"><label for="tel">По телефону</label> <br><br>
+            <input type="radio" name="inp" id="no"><label for="no">Не уведомлять меня</label> <br><br>
+        </div>
+
+        <div class="send-data"><input type="submit" value="отправить данные" class="submit"></div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+    <style>
+form {margin-bottom: 50px;}
+.f3 label {border: solid 1px red;}
+div {border: solid 1px black;padding: 20px 10px;width: max-content;}
+textarea {resize: none;}
+    </style>
+</head>
+<body>
+
+    <form action="#" method="POST">
+        <input type="text" placeholder="placeholder"> <br><br>
+        <input type="text" value="value"> <br><br>
+        <input type="text" disabled="disabled" value="disabled"> <br><br>
+        <input type="password" value="password"> <br><br>
+        <textarea></textarea><br><br>
+        <input type="submit" value="Кнопка через тег input"> <br><br>
+        <input type="button" value="Кнопка через тег button">
+    </form>
+
+    <form action="#"  method="GET">
+        <input type="text" placeholder="Плейсхолдер" id="check1">
+        <label for="check1">Это метка для инрута - нажмите на меня - и инрут получит фокус!</label> <br><br>
+        <input type="submit" value="Отправить на сервер">
+    </form>
+
+    <form action="#" method="POST" class="f3">
+        <input type="checkbox" id="check2"><label for="check2">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label> <br><br>
+        <input type="checkbox" id="check3" checked><label for="check3">Я отмечен по умолчанию!</label> <br><br>
+        <input type="checkbox" checked disabled><label>Я disabled</label> <br><br>
+        <div>
+            Это группа радиокнопок - только одна из них может быть отмечена! <br><br>
+            <input type="radio" name="this" id="check4"><label for="check4">Это метка для радио</label> <br><br>
+            <input type="radio" name="this" id="check5"><label for="check5">Это метка для радио</label>
+        </div> <br>
+        <input type="submit" value="Отправить на сервер">
+    </form>
+
+    <form action="#" method="GET">
+        <select  name="">
+            <option>Нью Йорк</option>
+        </select>
+        <select multiple name="">
+            <option>Москва</option>
+            <option>Киев</option>
+            <option selected>Нью Йорк</option>
+        </select>
+        <select multiple name="">
+            <option>Минск</option>
+            <option>Москва</option>
+            <option>Киев</option>
+            <option selected>Нью Йорк</option>
+            <option>Варшава</option>
+        </select>
+        <input type="submit" value="Отправить на сервер">
+    </form>
+
+    <form action="#" method="POST">
+        <input type="file">
+        <input type="submit" value="Отправить на сервер">
+    </form>
+
+    <form action="#">
+        <fieldset>
+            <legend>Выберете кноночку</legend>
+            <input type="radio" name="leg">
+            <input type="radio" name="leg">
+            <input type="radio" name="leg">
+            <input type="text" placeholder="Ваше имя...">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Выберете еще кноночку</legend>
+            <input type="radio" name="inp">
+            <input type="radio" name="inp">
+            <input type="radio" name="inp">
+            <input type="radio" name="inp">
+            <input type="radio" name="inp">
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Отправить на сервер">
+    </form>
+
+    <form action="#">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Ограничена ширина и высота"></textarea> <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br><br>
+    </form>
+
+</body>
+</html>
