@@ -1,0 +1,207 @@
+body {
+    width: 485px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+div {
+    border: solid 1px #bbb;
+    padding: 30px 50px 50px;
+    margin: 50px 0;
+}
+
+.first-letter p::first-letter {
+    color: red;
+	font-size: 30px;
+    font-style: italic;
+}
+
+.first-line p::first-line {
+	color: red;
+    font-style: italic;
+}
+
+.selection p::selection{
+	color:white;
+	background-color:black;
+}
+
+.placeholder input[type="1"]::placeholder {
+    color: green;
+}
+
+.placeholder input[type="2"]::placeholder {
+    background: green;
+    color: white;
+}
+
+.focus input[type="11"]:focus {
+	box-shadow: 2px 2px 5px black;
+    transition: all 0.1s;
+}
+
+.focus input[type="22"]:focus {
+	background: rgba(0, 102, 255, 0.438);
+    transition: all 0.3s;
+}
+
+.focus input[type="33"]:focus {
+	transform: rotate(360deg);
+    transition: all 0.2s;
+}
+
+.after-befor-content p::before {
+    content: 'Начало:';
+    color: red;
+}
+
+.after-befor-content p::after {
+	content: ':конец!';
+    color: green;
+}
+
+.counter1 {
+	counter-reset: test;
+}
+
+.counter1 p::before {
+	counter-increment: test;
+	content: "Абзац №"counter(test)". ";
+}
+
+.counter2 {
+	counter-reset: second 7;
+}
+
+.counter2 p::before {
+	counter-increment: second;
+	content: "Абзац №"counter(second)". ";
+}
+
+.counter3 {
+	counter-reset: third;
+}
+
+.counter3r {
+	counter-reset: third;
+	font-weight: bold;
+}
+
+.counter3 p::before {
+	counter-increment: third;
+	content: "Абзац №"counter(third)". ";
+}
+
+.counter4 {
+	counter-reset: fourth;
+}
+
+.counter4r {
+	counter-reset: fourth 17;
+	font-weight: bold;
+}
+
+.counter4 p::before {
+	counter-increment: fourth;
+	content: "Абзац №"counter(fourth)". ";
+}
+
+.nth li:first-child {
+	color: red;
+}
+
+.nth li:last-child {
+	color: green;
+}
+
+.nth1 li:nth-child(3) {
+	color: red;
+}
+
+.nth2 li:nth-child(odd) {
+	color: red;
+}
+
+.nth2 li:nth-child(even) {
+	color: green;
+}
+
+.nth3 li:nth-child(3n) {
+	color: red;
+}
+
+.nth4 li:nth-last-child(2) {
+	color: red;
+}
+
+.nth5 li:only-child {
+	color: red;
+}
+
+.checked input:checked+label {
+	color: red;
+}
+
+.blue-label {
+    color: blue;
+}
+
+input:checked+label {
+	color: red;
+}
+
+.enabled input:enabled {
+	border: 1px solid green;
+	box-shadow: 0px 0px 3px green;
+}
+
+input[type="disabled"]:disabled {
+	border: 1px solid red;
+	box-shadow: 0px 0px 3px red;
+}
+
+.empty li {
+	margin-bottom: 5px;
+	border: 1px solid red;
+}
+
+.empty li:empty {
+	border: 1px solid blue;
+}
+
+.not p:not(.test) {
+	color: red;
+}
+
+.notf li:not(:first-child) {
+	color: red;
+}
+
+.nott li:not(:nth-child(3)) {
+	color: red;
+}
+
+.lang q:lang(de) {
+	quotes: "\201E" "\201C";
+}
+
+.lang q:lang(fr) {
+	quotes: "\00AB" "\00BB";
+}
+
+.lang q:lang(en) {
+	quotes: "\201C" "\201D";
+}
+
+.target {
+	color: black;
+	text-decoration: none;
+}
+
+.target a:target(1) {
+	color: blue;
+}
