@@ -1,0 +1,568 @@
+
+div {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    width: 750px;
+    margin-top: 25px;
+}
+
+#block1 p {
+    border: 2px solid red;
+    padding: 5px 5px 5px 5px;
+}
+
+#b1p1 {
+    letter-spacing: 2px;
+}
+
+#b1p2 {
+    letter-spacing: -1px;   
+}
+
+#b1p3 {
+    word-spacing: 7px;
+}
+
+#b1p4 {
+    word-spacing: -3px;
+}
+
+#b1p5 {
+    font-variant: small-caps;
+}
+
+#b1p6 {
+    text-transform: uppercase;
+}
+
+#b2table {
+    border: 1px solid darkgreen;
+    empty-cells: hide;
+    width: 300px;
+    height: 150px;
+    border-spacing: 10px;
+}
+
+#b2table td {
+    border: 2px solid darkgreen;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+}
+
+#block3 p {
+    margin-top: 25px;
+    width: 400px;
+}
+
+#b3p1 {
+    text-align-last: right;
+}
+
+#b3p2 {
+    text-align-last: center;
+}
+
+#block4 p {
+    border: 2px solid red;
+    padding: 2px;
+}
+
+#b4p1 {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#b4p2 {
+    width: 100px;
+    height: 100px;
+    overflow: hidden scroll;
+}
+
+#b4p3 {
+    width: 300px;
+    height: 300px;
+    overflow: scroll scroll;
+}
+
+#b4p4 {
+    width: 300px;
+    height: 20px;
+    white-space: nowrap;
+}
+
+#b4p5 {
+    width: 300px;
+    height: 40px;
+    overflow: auto hidden;
+    white-space: nowrap;
+}
+
+#block5 {
+    background-image: url("images/1.jpg");
+    background-position: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#block5 p {
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#b5p1 {
+    color: white;
+    border: 25px solid rgba(255, 255, 255, 0.5);
+}
+
+#b5p2 {
+    color: rgba(255, 255, 255, 0.5);
+    border: 25px solid rgba(255, 255, 255, 0.5);
+}
+
+#block6 p {
+    margin-top: 25px;
+}
+
+#b6p1 {
+    text-shadow: 10px 10px grey;
+}
+
+#b6p2 {
+    text-shadow: 10px 10px 2px grey;
+}
+
+#b6p3 {
+    text-shadow: 5px 5px 2px red, -5px -5px 2px blue;
+}
+
+#b6p4 {
+    text-shadow: 0px 0px 10px black;
+}
+
+#b6p5 {
+    text-shadow: 0px 0px 2px black;
+}
+
+#b6p6 {
+    text-shadow: 0px 0px red;
+}
+
+#block7 p {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+
+#b7p1 {
+    box-shadow: 10px 10px 0px grey;
+}
+
+#b7p2 {
+    box-shadow: 10px 10px 5px grey;
+}
+
+#b7p3 {
+    box-shadow: 10px 10px 5px grey, -10px -10px 5px grey;
+}
+
+#b7p4 {
+    box-shadow: inset 5px 5px 5px grey;
+}
+
+#b7p5 {
+    box-shadow: inset 5px 5px 5px blue, inset -5px -5px 5px red;
+}
+
+#block8 p {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+
+#b8p1 {
+    cursor: pointer;
+}
+
+#b8p2 {
+    cursor: progress;
+}
+
+#b8p3 {
+    cursor: text;
+}
+
+#b8p5 {
+    cursor: move;
+}
+
+#b8p6 {
+    cursor: not-allowed;
+}
+
+#b8p7 {
+    cursor: url("cursors/Alternate\ Select.cur"), auto;
+}
+
+#b9p1 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+#b9p2 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
+
+#b9p3 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: dashed;
+}
+
+#b9p4 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+}
+
+#block10 {
+    text-align: center;
+    height: 250px;
+    background-image: url("images/fon1.jpg"), url("images/fon2.jpg");
+    background-position: left, right;
+    background-repeat: repeat-y;
+    background-size: 250px;
+}   
+
+#block11 p {
+    border: 2px solid black;
+    width: 50vw;
+    height: 25px;
+    white-space: nowrap;
+    overflow: hidden hidden;
+    text-overflow: clip;
+    padding-left: 5px;
+}
+
+#block11 p:hover {
+    overflow: visible;
+}
+
+#block12 p {
+    white-space: pre;
+    tab-size: 100px;
+}
+
+#block13 p, #block13 h2 {
+    width: 400px;
+    padding-left: 100px;
+    hyphens: auto;
+}
+
+#block14 p, #block15 p, #block16 p {
+    border: 2px solid black;
+    display: block;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    display: block;
+}
+
+#b14p1 {
+    background: linear-gradient(180deg, yellow, white);
+}
+
+#b14p2 {
+    background: linear-gradient(90deg, yellow, white);
+}
+
+#b14p3 {
+    background: linear-gradient(270deg, yellow, white);
+}
+
+#b14p4 {
+    background: linear-gradient(-45deg, red, white);
+}   
+
+#b14p5 {
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(90deg, red, blue, white 275px, red);
+}
+
+#b14p6 {
+    height: 300px;
+    width: 600px;
+    background: linear-gradient(0deg, red 0px, red 100px, white 100px, white 200px, red 200px);
+}
+
+.rect {
+    height: 150px;
+    width: 300px;
+}
+
+#b15p1 {
+    background: radial-gradient(at center, white, rgb(87, 87, 255));
+}
+
+#b15p2 {
+    background: radial-gradient(at top center, white, rgb(87, 87, 255));
+}
+
+#b15p3 {
+    background: radial-gradient(circle at center, white, rgb(87, 87, 255));
+}
+
+#b15p4 {
+    background: radial-gradient(at center, white, rgb(87, 87, 255));
+}
+
+#b15p5 {
+    background: radial-gradient(circle at center, white 5px, rgb(87, 87, 255));
+}
+
+#b15p6 {
+    background: radial-gradient(circle at 10px 20px, white 1px, rgb(87, 87, 255));
+}
+
+#b15p7 {
+    background: radial-gradient(circle at center, black 5px, white 20px, white 30px, green 40px);
+}
+
+#b15p8 {
+    background: radial-gradient(circle at center, green 0px, green 20px, white 20px, white 40px, green 40px, green);
+}
+
+#b16p1 {
+    width: 500px;
+    height: 75px;
+    background: repeating-linear-gradient(90deg, white, white 5px, black 5px, black 10px);
+}
+
+#b16p2 {
+    width: 500px;
+    height: 75px;
+    background: repeating-linear-gradient(0deg, black, black 5px, white 5px, white 10px);
+}
+
+#b16p3 {
+    width: 500px;
+    height: 75px;
+    background: repeating-linear-gradient(0deg, white, white 5px, grey 5px, grey 7px);
+}
+
+#b16p4 {
+    width: 500px;
+    height: 25px;
+    background: repeating-linear-gradient(45deg, white, white 5px, red 5px, red 10px);
+}
+
+#b16p5 {
+    width: 500px;
+    height: 500px;
+    background: repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+}
+
+#b16p6 {
+    width: 500px;
+    height: 75px;
+    background: repeating-linear-gradient(-45deg, white, white 5px, grey 5px, grey 7px);
+}
+
+#block17 p {
+    width: 375px;
+    text-align: justify;
+    column-count: 3;
+}
+
+#block18 p {
+    width: 400px;
+    text-align: justify;
+    column-count: 4;
+}
+
+#block19 p {
+    width: 350px;
+    text-align: justify;
+    column-count: 2;
+    column-rule: 2px solid black;
+    column-gap: 75px;
+}
+
+#block20 p {
+    width: 350px;
+    text-align: justify;
+    column-count: 3;
+    column-rule: 2px dashed black;
+    column-gap: 25px;
+}
+
+@font-face {
+    font-family: LIO;
+    src: url("fonts/3684.ttf") format("truetype");
+    font-style: normal;
+}
+
+#block21 {
+    font-family: LIO;
+    font-size: 25px;
+}
+
+#block21 p {
+    width: 250px;
+    hyphens: auto;
+}
+
+#block21 h2 {
+    font-size: 40px;
+}
+
+#b22p1 {
+    background-color: darkgreen;
+    border-width: 26px;
+    border-style: solid;
+    border-image: url(images/border-image.png) 26 repeat;
+}
+
+#b22p1:hover {
+    border-image: url('images/border-image.png') 20 repeat;
+}
+
+#b22p2 {
+    background-color: darkgreen;
+    border-width: 26px;
+    border-style: solid;
+    border-image: url("images/border-image.png") 26;
+}
+
+#b22p3 {
+    background-color: darkgreen;
+    border-width: 26px;
+    border-style: solid;
+    border-image: url(images/border-image.png) 26 repeat stretch;
+}
+
+#b22p4 {
+    background-color: darkgreen;
+    border-width: 20px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, red, blue) 20;
+}
+
+#b22p5 {
+    background-color: darkgreen;
+    border-width: 15px;
+    border-style: solid;
+    border-image: url(images/border-image.png) 26 repeat;
+}
+
+#b22p6 {
+    border-width: 15px;
+    border-style: solid;
+    border-image: url(images/border-image-fill.png) 25% 30% 10% 20% stretch;
+}
+
+#b22p6:hover {
+    border-width: 15px;
+    border-style: solid;
+    border-image: url(images/border-image-fill.png) fill 25% 30% 10% 20% stretch;
+}
+
+#block23 p {
+    overflow: hidden hidden;
+    border: 5px dotted black;
+    padding: 25px 25px 25px 25px;
+}
+
+#b23p1 {
+    background-image: url(images/bg1.jpg);
+    background-clip: padding-box;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+}
+
+#b23p2 {
+    background-image: url(images/bg1.jpg);
+    background-clip: content-box;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+}
+
+#b23p3 {
+    background-image: url(images/bg1.jpg);
+    background-origin: padding-box;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+}
+
+#b23p4 {
+    color: white;
+    background-color: blue;
+    background-clip: padding-box;
+}
+
+#b23p5 {
+    color: white;
+    background-color: blue;
+    background-clip: content-box;
+}
+
+#b23p6 {
+    color: white;
+    background-color: blue;
+    background-clip: border-box;
+}
+
+#block24 div{
+    width: 700px;
+}
+
+#gs{
+    filter: grayscale(1);
+}
+
+#sep{
+    filter: sepia(1);
+}
+
+#satur{
+    filter: saturate(0.5);
+}
+
+#hr{
+    filter: hue-rotate(90deg);
+}
+
+#inv{
+    filter: invert(1);
+}
+
+#op{
+    filter: opacity(0.5);
+}
+
+#br{
+    filter: brightness(0.5);
+}
+
+#contr{
+    filter: contrast(0.5);
+}
+
+#bl{
+    filter: blur(10px);
+}
+
+#ds{
+    filter: drop-shadow(20px 20px 10px);
+}
