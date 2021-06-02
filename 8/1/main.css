@@ -1,0 +1,26 @@
+body {
+    width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.seo, .usability, .class-sites {
+    width: 100%;
+    border: solid 1px #222;
+    padding: 10px 20px 40px 20px;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+    float: right;
+    text-decoration: none;
+}

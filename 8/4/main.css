@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px #000;
+    width: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:hover {
+    color: #555;
+    background: white;
+}
+
+.menu {
+    background: #555;
+    padding: 9px 0;
+}
+
+section {
+    padding: 20px;
+}

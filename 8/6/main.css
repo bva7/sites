@@ -1,0 +1,37 @@
+body {
+    color:green; 
+	width: 60%;
+	border: 2px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px; 
+	border-radius: 20px;
+}
+
+h1, h2 {
+    color: darkred;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color:green;
+}
+
+.menu1 a:link, .menu1 a:visited {
+	color: blue;
+	text-decoration: underline;
+}
+
+.menu1 a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.name {
+    color:black;
+	font-style: italic;
+	text-align: right;
+}

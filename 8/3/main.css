@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px auto;
+    width: 1000px;
+    border: solid 1px #000;
+    text-align: justify;
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2, a {
+    color: rgb(243, 38, 140);
+}
+
+p, a {
+    text-indent: 50px;
+    font-family: sans-serif;
+}
+
+span {
+    color: green;
+}
+
+a {
+    float: right;
+}
+
+li {
+    list-style-type: decimal;
+
+}
