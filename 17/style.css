@@ -1,0 +1,232 @@
+@keyframes anim1 {
+	from {
+        margin-left: 3px;
+    }
+    to {
+        margin-left: 500px;
+    }
+}
+
+.container {
+    border: 1px #888 solid;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+    width: 700px;
+}
+
+
+#d1, #d2 {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+    animation: anim1 3s 4;
+}
+
+#d2 {
+    animation: anim1 3s infinite;
+}
+
+@keyframes anim3 {
+	from {
+        background-color: red;
+    }
+    to {
+        background-color: green;
+    }
+}
+
+#d3 {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+    animation: anim3 3s infinite;
+}
+
+@keyframes anim4 {
+	0% {
+        margin-left: 0%; 
+        margin-top: 0%;
+    }
+	25% {
+        margin-left: 50%; 
+        margin-top: 0%;
+    }
+	50% {
+        margin-left: 50%; 
+        margin-top: 20%;
+    }
+	75% {
+        margin-left: 0%; 
+        margin-top: 20%;
+    }
+	100% {
+        margin-left: 0%; 
+        margin-top: 0%;
+    }
+}
+
+#d4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+	animation: anim4 8s linear 30; 
+    /* Линейная функция, анимация происходит равномерно на протяжении всего времени, без колебаний в скорости. */
+}
+
+#d5 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+	animation: anim4 8s linear 30, anim3 3s ease 30;
+    /* Функция по умолчанию, анимация начинается медленно, разгоняется быстро и замедляется в конце. Соответствует */
+}
+
+@keyframes anim6 {
+    0% {
+        margin-left: 0%; 
+    }
+    50% {
+        margin-left: 100px; 
+    }
+    100% {
+        margin-left: 200px;
+    }
+    50% {
+        margin-left: 100px; 
+    }
+}
+
+#d6 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+	animation: anim6 1s linear 30;
+    animation-direction: alternate;
+    /* Анимация идёт с начала до конца, затем плавно возвращается в исходное положение. */
+}
+
+
+@keyframes test{
+	0% {
+        width: 0%;
+    }
+	100% {
+        width: 100%;
+    }
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 50%;
+	height: 30px;
+	border: 1px solid red;
+}
+
+#d7 {
+	background: red;
+	width: 0%;
+	height: 30px;
+	
+	animation: test 5s linear 1 forwards;
+    /* анимация будет применять значения свойств к моменту окончания анимации */
+}
+
+#d8 {
+	background: red;
+	width: 0%;
+	height: 30px;
+    animation: test 5s linear 1 forwards;
+    animation-play-state: paused;
+    /* ставит анимацию на паузу */
+}
+
+#wrapper:hover #d8 {
+    animation-play-state: running;
+    /* проигрывает анимацию */
+}
+
+#b1 {
+    margin-top: 20px;
+    margin: 10px 25%;
+    width: 20%;
+	height: 30px;
+    border: 2px red solid;
+}
+
+#wrapper1 {
+	margin: 0px auto;
+	width: 50%;
+	height: 30px;
+	border: 1px solid blue;
+}
+
+#b1:hover + #wrapper1 #d8-1 {
+    animation-play-state: running;
+}
+
+#d8-1 {
+	background: rgb(47, 0, 255);
+	width: 0%;
+	height: 30px;
+    animation: test 5s linear 1 forwards;
+    animation-play-state: paused;   
+}
+
+@keyframes bouncing {
+	40%, 70%, 90%{
+		animation-timing-function: ease-out;
+        /* Анимация начинается быстро, к концу замедляется */
+		bottom: 0;
+	}
+	0%{
+		bottom: 200px;
+		left: 0;
+		animation-timing-function: ease-in;
+        /* Анимация медленно начинается, к концу ускоряется. Аналогично */
+	}
+	55%{
+		bottom: 50px;
+		animation-timing-function: ease-in;
+	}
+	80%{
+		bottom: 25px;
+		animation-timing-function: ease-in;
+	}
+	95%{
+		bottom: 10px;
+		animation-timing-function: ease-in;
+	}
+	100%{
+		left: 110px;
+		bottom: 0;
+		animation-timing-function: ease-out;
+	}
+}
+
+
+#wrapper3 {
+	margin: 0px auto;
+	width: 220px;
+	height: 220px;
+	border: 1px solid red;
+	position: relative;
+}
+
+#ball{
+	background: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: absolute;
+	
+	animation: bouncing 5s infinite;
+}
+
